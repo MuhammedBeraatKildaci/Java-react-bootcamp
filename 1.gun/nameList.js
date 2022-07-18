@@ -1,4 +1,4 @@
-let nameArray = ["ahmet", "mehmet", "ayşe", "fatma"];
+let nameArray = ["ahmet", "mehmet", "ayse", "fatma"];
 const app = document.getElementById("app");
 
 const ul = document.createElement("ul");
