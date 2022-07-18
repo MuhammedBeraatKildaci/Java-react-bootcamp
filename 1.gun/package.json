@@ -2,10 +2,15 @@
   "name": "1.gun",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "nameList.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "nodemon": "^2.0.19"
+  }
 }

@@ -1,3 +1,5 @@
+
+
 let nameArray = ["ahmet", "mehmet", "ayse", "fatma"];
 const app = document.getElementById("app");
 
