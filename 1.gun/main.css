@@ -12,7 +12,11 @@ body {
 }
 
 #app {
-  padding: 50px;
+  width: 500px;
+  height: 300px;
+  border-radius: 15px;
+  padding: 100px;
+  box-shadow: 15px 15px rgb(146, 132, 132);
 }
 
 li:hover {
