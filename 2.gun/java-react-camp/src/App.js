@@ -21,7 +21,15 @@ function App() {
 
   const clearAllNames = () => {
     setPersons([]);
+    getAllNames();
   };
+
+  const getAllNames = () => {
+    setTimeout(() => {
+      setPersons(persons);
+    }, 3000);
+  };
+
   const itemList = () => (
     <>
       <List names={persons} />
