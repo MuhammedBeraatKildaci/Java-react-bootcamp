@@ -1,6 +1,6 @@
 import ListItem from "./ListItem";
 
-function List({names}) {
+function List({ names }) {
   return (
     <div>
       {names.map((name) => (
