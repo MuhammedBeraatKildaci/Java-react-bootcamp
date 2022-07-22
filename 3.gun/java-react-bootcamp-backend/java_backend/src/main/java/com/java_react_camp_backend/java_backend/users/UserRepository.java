@@ -1,0 +1,7 @@
+package com.java_react_camp_backend.java_backend.users;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface UserRepository extends JpaRepository<User, Integer> {
+
+}
