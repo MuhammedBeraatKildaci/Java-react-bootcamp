@@ -7,6 +7,7 @@ export const getAllEmployee = async () => {
   return employees;
 };
 
+
 export const deleteEmployee = async (id) => {
   const deleteEmployee = await axios.delete(`${baseUrl}delete/${id}`);
   return deleteEmployee;

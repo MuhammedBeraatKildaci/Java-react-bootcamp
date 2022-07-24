@@ -3,3 +3,30 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+
+.section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addForm{
+  display: flex;
+  flex-direction: column;
+  margin: 200px 0;
+  padding: 0 120px;
+}
+
+.MuiSvgIcon-root{
+  margin: 10px;
+}
+
+.MuiList-root{
+  width: 100%;
+}
+
+.MuiFilledInput-root{
+  width: 100%;
+  margin: 10px 0px;
+}

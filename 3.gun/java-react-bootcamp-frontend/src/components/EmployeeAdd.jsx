@@ -1,3 +1,4 @@
+import { Button, TextField } from "@mui/material";
 import React, { useState } from "react";
 import { addEmployee } from "../service/employeeService";
 
@@ -15,19 +16,20 @@ function EmployeeAdd({ setRefresh, refresh }) {
     console.log(employee);
   };
   return (
-    <div>
-      <input
-        placeholder="isminiz"
-        name="firstName"
-        onChange={(e) => setFirstName(e.target.value)}
-      />
-      <input
-        placeholder="soyisminiz"
-        name="lastName"
-        onChange={(e) => setLastName(e.target.value)}
-      />
-      <button onClick={() => handleAdd(employee)}>Ekle</button>
-      <div>{firstName}</div>
+    <div className="addForm">
+        <TextField
+          placeholder="isminiz"
+          name="firstName"
+          variant="filled"
+          onChange={(e) => setFirstName(e.target.value)}
+        />
+        <TextField
+          placeholder="soyisminiz"
+          name="lastName"
+          variant="filled"
+          onChange={(e) => setLastName(e.target.value)}
+        />
+      <Button variant="contained" onClick={() => handleAdd(employee)}>Ekle</Button>
     </div>
   );
 }
